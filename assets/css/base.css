@@ -17,12 +17,26 @@ body {
     font-family: "Noto Sans JP", "Helvetica Neue", Helvetica, "Hiragino Sans", Arial, "Yu Gothic", "Meiryo", sans-serif;
     line-height: 1.5;
     font-size: 15px;
-    color: #333;
+    color: var(--txt-color);
+}
+
+:root {
+    --bg-black: #000;
+    --bg-white: #fff;
+    --txt-color: #333;
+    --sub-color: #fff;
+    --main-shadow-color: rgba(0, 0, 0, .14);
+    --sub-shadow-color: rgba(0, 0, 0, .2);
+    --border-color: #333;
 }
 
 a {
     text-decoration: none;
-    color: #333;
+    color: var(--txt-color);
+    display: block;
+}
+
+a,img,span {
     display: block;
 }
 
