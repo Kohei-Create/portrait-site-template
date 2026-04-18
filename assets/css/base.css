@@ -33,10 +33,9 @@ body {
 a {
     text-decoration: none;
     color: var(--txt-color);
-    display: block;
 }
 
-a,img,span {
+a,img,span,ul {
     display: block;
 }
 
@@ -47,8 +46,4 @@ ul {
 main {
     display: flex;
     flex-direction: column;
-}
-
-img {
-    display: block;
 }

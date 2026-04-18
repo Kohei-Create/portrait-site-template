@@ -132,9 +132,12 @@
     bottom: -2px;
     width: 100%;
     height: 1px;
-
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform .3s ease;
 }
 
 .nav-link:hover::after {
-    
+    transform: scaleX(1);
+    transform-origin: left;
 }
