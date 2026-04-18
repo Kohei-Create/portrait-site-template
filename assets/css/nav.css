@@ -30,7 +30,7 @@
 
 .nav-btn span {
     position: absolute;
-    background-color: #000;
+    background-color: var(--bg-black);
     top: 20px;
     left: 10px;
     right: 10px;
@@ -67,7 +67,7 @@
 .nav-overlay {
     position: fixed;
     inset: 0;
-    background-color: rgba(0, 0, 0, .2);
+    background-color: var(--sub-shadow-color);
     pointer-events: none;
     opacity: 0;
     transition: .25s;
